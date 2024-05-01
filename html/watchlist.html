@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>watchlist</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Jersey+15&display=swap" rel="stylesheet">
+   <script src="../function.js"></script>
+</head>
+<body class="watchlist" id="watchlist">
+    <nav class="navbare">
+        <img src="../photos/logo.jpg" >
+        <div class="searchresults">
+          <div class="searchbar">
+            <link rel="stylesheet" href="../style.css" href="/movieshome">
+            <button><span class="material-icons" style="font-size: large;" >search</span></button><input type="text" placeholder="search" 
+            class="searchinput">
+          </div>
+            <ul class="dropdown">
+              <li class="movie"><a href="#"><span class="moviename">Missing(2023)</span></a></li>
+              <li class="movie"><a href="#"><span class="moviename">Home Alone(1990)</span></a></li>
+              <li class="movie"><a href="#"><span class="moviename">Leo(2023)</span></a></li>
+            </ul>
+        </div>
+        <ul class="pages">
+          <div class="names"><li><a href="index.html">Home</a></li>
+            <li><a href="fav.html">favorite</a></li>
+            <li><a href="watchlist.html">watchlist</a></li>
+            <li><a href="#contactus">contact us</a></li></div>
+            <div class="buttons"><li><button><a href="kenzy.html">log-in</a></button></li>
+            <li><button><a href="sign in mart.html">sign-up</a></button></li></div>
+        </ul>
+        <label class="switch">
+          <input type="checkbox">
+          <span onclick="myFunction()" class="slider round"></span>
+        </label>
+    </nav>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="title"><h1>Missing(2023)</h1></div>
+        <div class="summary">After her mother goes missing, a young woman tries to find her from home, using tools available to her online.</div>
+        <div class="gotomovie"><button><a href="missing.html">go to movie</a></button></div>
+        <img src="../photos/missing-slide.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="title"><h1>Home Alone(1990)</h1></div>
+        <div class="summary">An eight-year-old troublemaker, mistakenly left home alone, must defend his home against a pair of burglars on Christmas Eve.</div>
+        <div class="gotomovie"><button><a href="#">go to movie</a></button></div>
+        <img src="../photos/home alone-slide.png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="title"><h1>Leo(2023)</h1></div>
+        <div class="summary">A 74-year-old lizard named Leo and his turtle friend decide to escape from the terrarium of a Florida school classroom where they have been living for decades.</div>
+        <div class="gotomovie"><button><a href="#">go to movie</a></button></div>
+        <img src="../photos/leo-slide.avif" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <audio controls style="float: right; margin-right:30px ;">
+      <source src="../media/watchlist audio.mp3" type="audio/mpeg">
+    </audio>
+    <h1>My Watchlist<span class="material-icons" style="font-size: larger; position: absolute; top:-5;">    bookmark</span></h1>
+    <div class="row">
+      <div class="column">
+        <div class="movieposter"><a href="missing.html"><img src="../photos/missing.jpg" alt="missing(2023)"></a></div>
+        <h2>Missing(2023)</h2>
+      </div>
+      <div class="column">
+        <div class="movieposter"><a href="#"><img src="../photos/home alone.jpg" alt="home alone(1990)"></a></div>
+        <h2>Home Alone(1990)</h2>
+      </div>
+      <div class="column">
+        <div class="movieposter"><a href="#"><img src="../photos/leo.jpg" alt="leo(2023)"></a></div>
+        <h2>Leo(2023)</h2>
+      </div>
+      <div class="more"><button><a href="#"><span class="material-icons">add</span></a></button></div>
+    </div>
+    <div class="footer">
+      <footer>
+        <div class="contactus" id="contactus">contact us: 012--------/010--------</div>
+        <div class="socialmedia">
+          <a href="#"><img src="../photos/facebook-icon.webp"></a>
+          <a href="#"><img src="../photos/instagram-icon.webp"></a>
+          <a href="#"><img src="../photos/twitter-icon.webp"></a>
+          <a href="#"><img src="../photos/pinterest-icon.webp"></a>
+          <a href="#"><img src="../photos/youtube-icon.webp"></a>
+        </div>
+        <div class="copyright"><p>copyright&copy;2024.All rights reserved.</p></div>
+      </footer> 
+    </div>
+</body>
+</html>
